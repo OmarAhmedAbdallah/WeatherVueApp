@@ -26,7 +26,7 @@
             <div class="weather">{{ weather.weather[0].main }}</div>
           </div>
         </div>
-        <div class="weather-box" v-if="weather == 'undefined'">
+        <div class="weather-box error" v-if="weather == 'undefined'">
            <div class="temp">
               Not found
            </div>
